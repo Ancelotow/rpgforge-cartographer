@@ -9,6 +9,8 @@
 
 MainWindow::MainWindow(QWidget *parent) : CustomWindow(parent) {
     canvasView = new MapCanvasView(this);
+    setCentralWidget(canvasView);
+
     setWindowTitle(tr("Cartographer"));
     resize(800, 800);
     center();

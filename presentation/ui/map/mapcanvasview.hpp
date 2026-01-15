@@ -23,10 +23,9 @@ class MapCanvasView : public QWidget {
 
 public:
     explicit MapCanvasView(QWidget *parent = nullptr);
-
-    [[nodiscard]] MapViewModel* getViewModel() const { return viewModel; }
-
     ~MapCanvasView() override;
+
+    void paintEvent(QPaintEvent *event) override;
 
 private:
     MapViewModel *viewModel;
