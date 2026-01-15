@@ -1,0 +1,11 @@
+//
+// Created by Owen ANCELOT on 15/01/2026.
+//
+
+#ifndef CARTOGRAPHER_MAPVIEWMODEL_HPP
+#define CARTOGRAPHER_MAPVIEWMODEL_HPP
+
+class MapViewModel {
+};
+
+#endif //CARTOGRAPHER_MAPVIEWMODEL_HPP
