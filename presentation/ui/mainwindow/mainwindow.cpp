@@ -7,9 +7,11 @@
 #include "mainwindow.hpp"
 
 
-MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
+MainWindow::MainWindow(QWidget *parent) : CustomWindow(parent) {
     canvasView = new MapCanvasView(this);
     setWindowTitle(tr("Cartographer"));
+    resize(800, 800);
+    center();
 }
 
 MainWindow::~MainWindow() {

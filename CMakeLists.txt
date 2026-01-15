@@ -13,6 +13,8 @@ set(SOURCES
         presentation/ui/map/mapcanvasview.cpp
         presentation/ui/map/mapcanvasview.hpp
         presentation/ui/map/mapviewmodel.hpp
+        presentation/ui/shared/customwindow.cpp
+        presentation/ui/shared/customwindow.hpp
 )
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)

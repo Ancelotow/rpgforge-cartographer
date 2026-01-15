@@ -8,6 +8,7 @@
 #include <QMainWindow>
 
 #include "../map/mapcanvasview.hpp"
+#include "../shared/customwindow.hpp"
 
 
 QT_BEGIN_NAMESPACE
@@ -18,7 +19,7 @@ namespace Ui {
 
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow {
+class MainWindow : public CustomWindow {
     Q_OBJECT
 
 public:
@@ -27,7 +28,7 @@ public:
     ~MainWindow() override;
 
 private:
-    MapCanvasView* canvasView;
+    MapCanvasView* canvasView{};
 };
 
 
