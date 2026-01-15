@@ -15,6 +15,10 @@ set(SOURCES
         presentation/ui/map/mapviewmodel.hpp
         presentation/ui/shared/customwindow.cpp
         presentation/ui/shared/customwindow.hpp
+        domain/entities/draw/point.hpp
+        domain/entities/environment.hpp
+        domain/entities/draw/color.hpp
+        domain/entities/draw/trace.hpp
 )
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
